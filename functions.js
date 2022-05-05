@@ -239,3 +239,20 @@ function eval(a,b,op){
 }
 // console.log(expression("5 3 1 \* + 9 -".split(" ")));
 
+export default {
+    fact:program1,
+    cube:program2,
+    area:program3,
+    month:program4,
+    temperature:program5,
+    sumN:program5,
+    Nterm:program6,
+    removeWhiteSpace:program7,
+    quad:program8,
+    steal:program9,
+    occurances:program11,
+    palindrome:program12,
+    series:program13,
+    leftRotate:program14,
+    expression:program15
+}
