@@ -240,6 +240,9 @@ function eval(a,b,op){
 // console.log(expression("5 3 1 \* + 9 -".split(" ")));
 
 let data = "";
+let sampleInputs = [
+    5,2,20,8,12,10,18,"Lorem Ipsum","5 1 6","5 3 9 1 44 6","3 3 4 4 7 8",5,5,"7 3 1 2 3 4 5 6 7","5 3 1 \* + 9 -"
+]
 for(let i=1;i<=15;i++){
     data = data+`
     <div class="program-box">
@@ -248,7 +251,7 @@ for(let i=1;i<=15;i++){
               <hr>
               <input id="input-${i}" placeholder="Enter the input in given format..." type="text"/>
               <button onclick="execute(${i})" class="btn">Run</button>
-              <p>( Sample Input: abc )</p>
+              <p>( Sample Input: ${sampleInputs[i-1]} )</p>
             </div>
             <div class="line"></div>
             <div class="program-output">

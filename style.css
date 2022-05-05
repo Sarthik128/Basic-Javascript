@@ -80,3 +80,13 @@ input:focus {
     background-color: rgb(95, 223, 95);
     cursor: pointer;
 }
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading .btn{
+    width: 150px;
+    font-size: large;
+    margin-top: 20px;
+    background-color: #358be7;
+}
