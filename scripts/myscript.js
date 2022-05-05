@@ -195,7 +195,7 @@ function leftRotate(n,s,arr){
 
     return finalArr;
 }
-// console.log(leftRotate(7,2,[1, 2, 3, 4, 5, 6, 7]))
+// console.log(leftRotate(7,3,[1, 2, 3, 4, 5, 6, 7]))
 
 // program 15
 function expression(arr){
