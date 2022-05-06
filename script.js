@@ -307,11 +307,8 @@ function execute(n){
             output = removeWhiteSpace(inputVal);
             break;
         case 9:
-            let val = inputVal.split(" ");
-            let a = parseInt(val[0]);
-            let b = parseInt(val[1]);
-            let c = parseInt(val[2])
-            output = quad(a,b,c);
+            let input = inputVal.split(" ");
+            output = quad(parseFloat(input[0]),parseFloat(input[1]),parseFloat(input[2]));
             break;
         case 10:
             let val2 = inputVal.split(" ");
@@ -339,7 +336,7 @@ function execute(n){
         default:
             break;
     }
-    // console.log(output);
+    console.log(output);
     outputVal.innerHTML = output;
 }catch{
     outputVal.innerHTML = "Enter the proper input...";
